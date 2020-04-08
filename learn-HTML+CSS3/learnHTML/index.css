@@ -1,0 +1,135 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  padding: 10px 20px;
+}
+.header__nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+.header__nav ul li {
+  display: inline;
+}
+.header__nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.carousel img {
+  max-width: 100%;
+  display: block;
+  padding: 10px 0;
+}
+.intro {
+  display: flex;
+  padding: 5px;
+}
+.intro__content img {
+  max-width: 100%;
+}
+.intro__content1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding:5px 0;
+}
+.intro__content1 img {
+  max-width: 100%;
+}
+.intro__item3 {
+  grid-column: 1 / span2;
+  /* margin-right: 5px; */
+}
+
+.intro__content2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 10px;
+}
+.intro__content2 img{
+    max-width: 100%;
+}
+.intro__item4, .intro__item5 {
+  grid-column: 1 / span2;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 5px;
+}
+.products{
+    padding: 10px 0;
+}
+.products__list{
+    display: flex;
+    margin: 5px;
+}
+.products h2{
+text-align: center;
+padding: 15px;
+}
+.products__list img{
+    max-width: 100%;
+}
+.products__items{
+    padding: 0 5px;
+}
+.products__items p{
+    text-align: justify;
+}
+.products__items button{
+    padding: 5px 10px;
+    margin-top:5px ;
+    border: none;
+    border-radius: 3px;
+    background-color: #CD5F49;
+    color: white;
+}
+
+/* promote */
+.promote{
+    background-image: url('./img/nature.jpg');
+    max-width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+}
+.promote__items{
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 200px;
+    width: 200px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 45px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+/* service */
+.service{
+    display: flex;
+    padding: 20px 15px;
+}
+.service__items{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+.service__items h3{
+    padding: 20px 0;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
